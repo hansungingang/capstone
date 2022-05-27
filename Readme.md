@@ -6,7 +6,8 @@
 
 이러한 단점을 보완하기 위해 여러 사이트의 강의들을 한 사이트에서 검색할 수 있도록 하여 소비자친화적인 사이트를 구현하였다. 이를 통해 강사 역시 소비자에게 쉽게 노출되어 광고비용 및 시간을 절감할 수 있도록 한다.
 
-![image-20220527185029717](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20220527185029717.png)
+
+![캡처](https://user-images.githubusercontent.com/102017647/170690928-39be5e91-db63-48e8-9a5d-1a4ae5e4bfa1.PNG)
 
 
 
@@ -39,7 +40,6 @@
 
   * 컴포저 설치
   * https://blog.gaerae.com/2015/07/install-composer-on-windows.html 
-  * ![66ff856c-c648-44d4-a5db-9ebf9f9bac77](C:\Users\dell\OneDrive\바탕 화면\66ff856c-c648-44d4-a5db-9ebf9f9bac77.png)
   * https://b.redinfo.co.kr/46 (php에서 windows 로 composer 설치 및 진행)
 
 * 라라벨 설치
@@ -174,10 +174,12 @@
   docker 코드 실행이 안 된다면 Docker for windows 설정을 아래와 같이 변경.
   filesharing에서 자신의 위치를 추가시켜줘야 함.
   ```
+![도커컴포즈설정1](https://user-images.githubusercontent.com/102017647/170691221-7d9f11d0-f0b3-4421-9bfa-d505aa9ed3b6.png)
 
-![image-20211230-081423](C:\Users\dell\OneDrive\바탕 화면\image-20211230-081423.png)
 
-![image-20211230-081439](C:\Users\dell\OneDrive\바탕 화면\image-20211230-081439.png)
+![도커컴포즈설정2](https://user-images.githubusercontent.com/102017647/170691232-bf18082c-5bc8-4752-8a0d-cb2c7e43de39.png)
+
+
 
 
 
@@ -216,57 +218,59 @@ terraform destroy(실서버에 적용한 것 돌려놓기)
 # 프로젝트 구조
 
 
+![졸업작품구조](https://user-images.githubusercontent.com/102017647/170691280-90c4d9c6-3513-42c2-9e00-b689b0e43526.PNG)
 
-![졸업작품구조](C:\한성대\2022 1학기\졸업작품\최종\졸업작품구조.PNG)
+
 
 # 기능
 
 * 메인화면
 
-![메인화면](C:\한성대\2022 1학기\졸업작품\최종\홈페이지 화면\메인화면.PNG)
 
+
+![메인화면](https://user-images.githubusercontent.com/102017647/170691302-155ecc40-d999-4b53-9341-292f2dd8f792.PNG)
 
 
 
 
 * 로그인
 
-![로그인](C:\한성대\2022 1학기\졸업작품\최종\홈페이지 화면\로그인.PNG)
 
+![로그인](https://user-images.githubusercontent.com/102017647/170691308-a492f417-47d5-4b18-94ba-6eaf0b5ea220.PNG)
 
 
 * 회원가입
 
-![회원가입](C:\한성대\2022 1학기\졸업작품\최종\홈페이지 화면\회원가입.PNG)
 
 
+![회원가입](https://user-images.githubusercontent.com/102017647/170691313-ce8da841-24df-415d-baf6-9388683f2e6f.PNG)
 
 
-
-* 게시판
-
-![게시판](C:\한성대\2022 1학기\졸업작품\최종\홈페이지 화면\게시판.PNG)
 
 
 
 * 인터넷 강의 리스트
 
-![인강 리스트 화면](C:\한성대\2022 1학기\졸업작품\최종\홈페이지 화면\인강 리스트 화면.PNG)
+![인강 리스트 화면](https://user-images.githubusercontent.com/102017647/170691333-12c4cec5-4b26-4b68-8e6f-d0506d87b3db.PNG)
 
 
+
+* 게시판
+
+![게시판](https://user-images.githubusercontent.com/102017647/170691341-8054b3c7-396d-413e-a0ec-ab26f0f95c90.PNG)
 
 
 
 * 최근 본 목록
 
-![최근본목록](C:\한성대\2022 1학기\졸업작품\최종\홈페이지 화면\최근본목록.PNG)
+![최근본목록](https://user-images.githubusercontent.com/102017647/170691346-f4b95a1c-a2a3-4f70-9473-148414a2cf08.PNG)
 
 
 
 * 어드민 페이지
 
-![image-20220527201524242](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20220527201524242.png)
 
+![어드민](https://user-images.githubusercontent.com/102017647/170691434-59bc4e68-4401-4ccf-9fc7-b0e35b1654ce.PNG)
 
 
 # 팀원
