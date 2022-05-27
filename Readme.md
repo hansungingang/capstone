@@ -197,6 +197,10 @@ terraform destroy(실서버에 적용한 것 돌려놓기)
 * https://velog.io/@gentledev10/install-terraform-and-commands 참조
 
 
+테라폼 구조
+
+![aws terraform 설명](https://user-images.githubusercontent.com/102017647/170691623-c09b2a97-762f-4639-ad4d-d0635594dead.png)
+
 
 
 
