@@ -52,7 +52,7 @@
   * ```
     라라벨 설치 후
     composer global require laravel/installer (라라벨 다운로드)
-    laravel new blog (라라벨 새로운 폴더에 만듬.)
+    laravel new blog (라라벨 새로운 폴더에 만들어서 다운이 잘 됐는지 확인하고 해당 폴더 삭제.)
     ```
 
 * git 설치
