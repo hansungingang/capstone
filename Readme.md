@@ -208,7 +208,7 @@ terraform destroy(실서버에 적용한 것 돌려놓기)
 * mysql workbench (mysql database gui 프로그램)
 * sourcetree (git을 gui로 보여주는 프로그램)
 * erdcloud.com (데이터베이스 erd 생성 페이지)
-* git , jira , confluence , discord 사용
+* git , jira , confluence 사용
 
 
 
