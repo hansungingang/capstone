@@ -1,0 +1,15 @@
+.customerCenter {
+  font-size: 2rem;
+}
+.customerCenter a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+#button {
+  width: 100%;
+}

@@ -1,0 +1,68 @@
+<<TASK_DEFINITION
+[
+  {
+    "essential": true,
+    "image": "${aws_ecr_repository.demo_php_fpm.repository_url}",
+    "name": "app",
+    "logConfiguration": {
+            "logDriver": "awslogs",
+            "options": {
+               "awslogs-group" : "/ecs/demo",
+               "awslogs-region": "${var.AWS_REGION}",
+               "awslogs-stream-prefix": "ecs"
+            }
+     },
+     "secrets": [],
+     "environment": [
+       {"name" : "DB_HOST", "value" : "${aws_db_instance.default.address}"},
+       {"name" : "DB_DATABASE", "value" : "${aws_db_instance.default.name}"},
+       {"name" : "DB_USERNAME" , "value": "${aws_db_instance.default.username}"},
+       {"name" : "DB_PASSWORD" , "value" : "Topceo8963"}
+     ],
+     "healthCheck": {
+       "command": [ "CMD-SHELL", "curl -f http://localhost/ || exit 1" ],
+       "interval": 30,
+       "retries": 3,
+       "timeout": 5
+     },
+     "portMappings": [],
+     "pseudoTerminal" : true
+  },
+  {
+    "essential": true,
+    "image": "${aws_ecr_repository.demo_nginx.repository_url}",
+    "name": "nginx",
+    "logConfiguration": {
+            "logDriver": "awslogs",
+            "options": {
+               "awslogs-group" : "/ecs/demo",
+               "awslogs-region": "${var.AWS_REGION}",
+               "awslogs-stream-prefix": "ecs"
+            }
+     },
+     "secrets": [],
+     "environment": [],
+     "healthCheck": {
+       "command": [ "CMD-SHELL", "curl -f http://localhost/ || exit 1" ],
+       "interval": 30,
+       "retries": 3,
+       "timeout": 5
+     }
+     "portMappings": [
+        {
+           "containerPort": 80,
+           "hostPort": 8080,
+           "protocol": "tcp"
+        }
+     ],
+     "dependsOn" : [
+       {
+         "containerName" : "app",
+         "condition" : "START"
+       }
+     ],
+     "links" : ["app"],
+     "pseudoTerminal" : true
+  }
+]
+TASK_DEFINITION

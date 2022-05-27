@@ -1,0 +1,25 @@
+.lecture_info_write {
+  float: right;
+}
+.lecture_info_write label {
+  margin: 20px 0 0 0;
+}
+
+.col-xs-1 {
+  margin-right: 10px;
+}
+
+.lecture_detail {
+  position: relative;
+  margin: 107px 62px 0 0px;
+  float: left;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}

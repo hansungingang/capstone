@@ -1,0 +1,37 @@
+#table_data {
+  padding-left: 3rem;
+}
+
+.bi {
+  cursor: pointer;
+  color: red;
+}
+.bi.bi-heart {
+  z-index: 1;
+}
+
+.card.width18 {
+  width: 18rem;
+  height: 28rem;
+}
+.card.card-img-top.border0 {
+  border: 0;
+}
+
+.card-title {
+  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.card-text {
+  width: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

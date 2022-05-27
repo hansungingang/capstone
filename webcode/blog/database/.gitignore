@@ -1,0 +1,2 @@
+*.sqlite*
+docker/php-fpm/Dockerfile_backup

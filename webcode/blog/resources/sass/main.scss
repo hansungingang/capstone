@@ -1,0 +1,119 @@
+html, body { width:100%; height:100%; margin:0; padding:0; }
+
+body > div nav { font-size : 0.8rem; }
+
+a{
+  &:link{
+    text-decoration:none; 
+    color:#646464;
+  }
+  &:visited{
+    text-decoration:none; 
+    color:#646464;
+  }
+  &:hover{
+    text-decoration: underline;
+    color:#646464;
+  }
+}
+
+.wrapper{
+  display: flex; 
+  min-height: 100%; 
+  flex-direction: column
+}
+
+main{
+  flex: 1;
+}
+
+footer {
+  background-color: #333;
+  padding:30px 0;
+  color:#888;
+  
+  .row {
+    p{
+      text-align:center;
+      margin-top:50px;
+      line-height:1.5;
+    }
+  }
+  
+  .footer-nav{
+    float:left;
+
+    li{
+      list-style: none;
+      display: inline-block;
+      margin-right: 20px;
+
+      a{
+        &:link,
+        &:visited{
+          color:#888;
+          text-decoration: none;
+          transition: color 0.2s;
+        }
+
+        &:hover,
+        &:active{
+          color:#fff;
+        }
+      }
+    }
+  } 
+
+  .social-links{
+    li {
+      list-style: none;
+      display: inline-block;
+      margin-left: 20px;
+  
+      a{
+        &:link,
+        &:visited{
+          color:#888;
+          text-decoration: none;
+          transition: color 0.2s;
+        }
+      }
+    }
+  }
+
+  .fa-facebook{
+    transition: color 0.2s;
+    &:hover{
+      color:#3b5998;
+    }
+  }
+
+  .fa-twitter{
+    transition: color 0.2s;
+    &:hover{
+      color:#55acee;
+    }
+  }
+
+  .fa-google-plus{
+    transition: color 0.2s;
+    &:hover{
+      color:#dc4e41;
+    }
+  }
+
+  .fa-instagram{
+    transition: color 0.2s;
+    &:hover{
+      color:#3f729b;
+    }
+  }
+}
+
+.Icon-Artwork {
+    width: 20.4px;
+    height: 13px;
+    flex-grow: 0;
+    margin: 43.2px 8.6px 11.8px 3px;
+    background-color: #686b6f;
+}

@@ -1,0 +1,11 @@
+.customerCenter {
+  font-size: 2rem;
+}
+.customerCenter a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.ck-editor__editable_inline {
+  min-height: 500px;
+}

@@ -1,0 +1,73 @@
+.ck-editor__editable_inline {
+    min-height: 80px;
+    min-width: 100px;
+    max-width: 700px;
+}
+.active {
+    background-color: #7fff00;
+}
+.inactive {
+    background-color: #ffffff;
+}
+
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    -webkit-text-fill-color: gray; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2.3px;
+    -webkit-text-stroke-color: gray;
+    cursor: pointer;
+}
+
+.star-rating :checked ~ label {
+    -webkit-text-fill-color: gold;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    -webkit-text-fill-color: #fff58c;
+}
+
+.starToggle {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.starToggle input {
+    display: none;
+}
+
+.starToggle label {
+    -webkit-text-fill-color: gray; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2.3px;
+    -webkit-text-stroke-color: gray;
+    cursor: pointer;
+}
+
+.starToggle :checked ~ label {
+    -webkit-text-fill-color: gold;
+}
+
+.starToggle label:hover,
+.starToggle label:hover ~ label {
+    -webkit-text-fill-color: #fff58c;
+}
+.paddingLR240 {
+    padding-left: 240px;
+    padding-right: 240px;
+}
