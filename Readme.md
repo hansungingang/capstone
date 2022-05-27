@@ -285,26 +285,48 @@ terraform destroy(실서버에 적용한 것 돌려놓기)
 김현
 
 역할 : 크롤링
+
+
+
 github : https://github.com/stelladream1
+
+
+
 
 
 
 노길현
 
 역할 : 웹 프론트
+
+
+
+
 github : https://github.com/rgh130
+
+
 
 
 
 조성진
 
 역할 : 크롤링
+
+
+
+
 github : 
+
+
+
 
 
 
 조성권 
 역할 : 서버,프론트,백엔드
+
+
+
 github : https://github.com/sunggun1
 
 
