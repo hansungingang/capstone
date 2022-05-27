@@ -20,6 +20,9 @@
 1. [설치](#설치)
 2. [설치 및 실행](#설치 및 실행)
 3. [프로젝트 구조](#프로젝트 구조)
+4. [기능](#기능)
+5. [팀원](#팀원)
+6. [링크](#링크)
 
 
 
@@ -197,9 +200,6 @@ terraform destroy(실서버에 적용한 것 돌려놓기)
 * https://velog.io/@gentledev10/install-terraform-and-commands 참조
 
 
-테라폼 구조
-
-![aws terraform 설명](https://user-images.githubusercontent.com/102017647/170691623-c09b2a97-762f-4639-ad4d-d0635594dead.png)
 
 
 
@@ -223,6 +223,11 @@ terraform destroy(실서버에 적용한 것 돌려놓기)
 
 
 ![졸업작품구조](https://user-images.githubusercontent.com/102017647/170691280-90c4d9c6-3513-42c2-9e00-b689b0e43526.PNG)
+
+
+테라폼 구조
+
+![aws terraform 설명](https://user-images.githubusercontent.com/102017647/170691623-c09b2a97-762f-4639-ad4d-d0635594dead.png)
 
 
 
