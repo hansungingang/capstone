@@ -254,9 +254,7 @@ terraform destroy(실서버에 적용한 것 돌려놓기)
 
 ![회원가입](https://user-images.githubusercontent.com/102017647/170691313-ce8da841-24df-415d-baf6-9388683f2e6f.PNG)
 
-
-
-
+ 
 
 * 인터넷 강의 리스트
 
