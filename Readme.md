@@ -313,4 +313,4 @@ github : https://github.com/sunggun1
 
 크롤링  : https://github.com/hansungingang/capstone_crawling
 
-사이트 주소 : http://demo-257674007.ap-northeast-2.elb.amazonaws.com/
+사이트 주소 : http://demo-703234072.ap-northeast-2.elb.amazonaws.com
