@@ -296,7 +296,7 @@ github : https://github.com/rgh130
 <br>
 역할 : 크롤링
 <br>
-github : 
+github : https://github.com/chochris
 <br>
 <br>
 조성권 
